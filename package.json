@@ -1,0 +1,23 @@
+{
+  "name": "june-backserver",
+  "version": "2.1.0",
+  "author": "Eduardo Ruiz <eruiz@dataclick.es> (https://www.dataclick.es)",
+  "description": "JuNe BackServer for Router path, JSON Web Token, WebSockets, SSE, APPs or backends",
+  "keywords": [
+    "backserver", "backend", "router", "restful api", "rest", "restful", "app", "express", "jwt", "json web token",
+    "websockets", "server sent events", "sse", "google authenticator", "stripe", "paypal"
+  ],
+  "license": "MIT",
+  "main": "backserver.js",
+  "homepage": "https://github.com/EduardoRuizM/june-backserver",
+  "bugs": {
+    "url": "https://github.com/EduardoRuizM/june-backserver/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EduardoRuizM/june-backserver.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
