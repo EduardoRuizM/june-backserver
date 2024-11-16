@@ -1,6 +1,6 @@
 {
   "name": "june-backserver",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "author": "Eduardo Ruiz <eruiz@dataclick.es> (https://www.dataclick.es)",
   "description": "JuNe BackServer for Router path, JSON Web Token, WebSockets, SSE, APPs or backends",
   "keywords": [

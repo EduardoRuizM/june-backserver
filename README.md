@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="logo.png" title="JuNe BackServer" width="300" height="194" />
+  <img src="logo.png" title="JuNe BackServer" width="300" height="194">
 </p>
 
 # [JuNe BackServer](https://github.com/EduardoRuizM/june-backserver "JuNe BackServer")
 JuNe BackServer is a Node.js module to create minimalist web frameworks, RESTful API, APPs or backends with Routing and JSON Web Token with session control.
 In just 1 file and 22 Kb without dependencies, instead of 630 files, 133 folders and 2.4 Mb (Express + JWT + ws).
 
-# 🏅 8 in1
+# 🏅 8 in 1
 #### 1. Routing endpoints response to client request and Middleware
 #### 2. JSON Web Token with expiration control
 #### 3. Files upload (normal or large)
@@ -21,24 +21,34 @@ In just 1 file and 22 Kb without dependencies, instead of 630 files, 133 folders
 # Everything you need to build your backend
 
 ✔ Create a HTTP or HTTPS server (IPv4 / IPv6).
+
 ✔ Routing for GET, POST, PUT, PATCH, DELETE or (default) and with Middleware.
+
 ✔ JSON Web Token auto-updated and integrated for ease of use directly in the backend.
+
 ✔ Token expiration or forever.
+
 ✔ Ready for files/folder upload (small or large sent with chunks from FileReader).
+
 ✔ Email delivery support for all MIME types.
+
 ✔ WebSockets (ws and secure wss) and Server-Sent Events protocol (SSE) support.
+
 ✔ Captcha (hidden) form security support.
+
 ✔ Google Authenticator for Two-factor authentication (2FA).
+
 ✔ Send payments to Stripe or PayPal.
+
 ✔ Support for HTTP/2.
 
-#### 👉 Try JavaScript framework for frontend [JuNe PaulaJS](https://paulajs.com "JuNe PaulaJS") - [GitHub](https://github.com/EduardoRuizM/june-paulajs "GitHub")
+#### 👉 Try JavaScript framework for frontend [JuNe PaulaJS](https://github.com/EduardoRuizM/june-paulajs "JuNe PaulaJS")
 #### Also [JuNe WebServer](https://github.com/EduardoRuizM/june-webserver "JuNe WebServer")
 
 # Author
 [Eduardo Ruiz](https://github.com/EduardoRuizM) <<eruiz@dataclick.es>>
 
-# [JuNe](https://just-needed.com "JuNe") / JUst NEeded Philosophy
+# JuNe / JUst NEeded Philosophy
 1. **Source code using less code as possible**
   So you can understand code and find bugs easier.
 2. **Few and optimized lines is better**
@@ -217,7 +227,7 @@ app.post('/upload', (req, res) => {
 
 ### Chunked files
 Variables are received for each chunk using PUT.
-Compatible and designed for **[JuNe PaulaJS](https://paulajs.com "JuNe PaulaJS") JavaScript framework** (with examples), although you could also perform the same functionallity in your own frontend with the same variables.
+Compatible and designed for **[JuNe PaulaJS](https://github.com/EduardoRuizM/june-paulajs "JuNe PaulaJS") JavaScript framework** (with examples), although you could also perform the same functionallity in your own frontend with the same variables.
 
 ```
 app.put('/upload', (req, res) => {
@@ -711,12 +721,12 @@ if(i > -1)
 
 ### JuNe BackServer was developed initially for [JuNeDNS Backend](https://github.com/EduardoRuizM/junedns-backend "JuNeDNS Backend") and [JuNeDNS Frontend](https://github.com/EduardoRuizM/junedns-frontend "JuNeDNS Frontend")
 
-# [JuNe](https://just-needed.com "JuNe") Development Ecosystem
+# JuNe Development Ecosystem
 Everything you need to develop your project:
 ### Backend
 - [JuNe BackServer](https://github.com/EduardoRuizM/june-backserver "JuNe BackServer") With request routing, tokens, file upload, send Emails, WebSockets, SSE and captcha.
 - [JuNe WebServer](https://github.com/EduardoRuizM/june-webserver "JuNe WebServer") Web server with HMR.
 
 ### Frontend
-- [JuNe PaulaJS](https://paulajs.com "JuNe PaulaJS") Powerful JavaScript framework - [GitHub](https://github.com/EduardoRuizM/june-paulajs "GitHub")
+- [JuNe PaulaJS](https://github.com/EduardoRuizM/june-paulajs "JuNe PaulaJS") Powerful JavaScript framework
 - [JuNe CSS](https://github.com/EduardoRuizM/june-css "JuNe CSS") Full responsive CSS library with icons.
